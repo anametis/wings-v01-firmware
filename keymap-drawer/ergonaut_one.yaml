@@ -44,7 +44,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: NUM, h: toggle}
   SYM:
-  - {t: F1, h: Gui}
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -53,10 +53,10 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
-  - F12
-  - {t: +, h: Ctrl}
+  - '-'
+  - +
+  - {t: ▽, type: trans}
+  - '~'
   - '1'
   - '2'
   - '3'
@@ -67,19 +67,19 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - Alt
+  - '|'
+  - {t: ▽, type: trans}
+  - /
+  - <
+  - '['
+  - (
+  - '{'
+  - '}'
+  - )
+  - ']'
+  - '>'
+  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -87,42 +87,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - PAGE UP
+  - ''
   - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - ←
-  - ↑
   - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
+  - ''
+  - ''
   - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - ↑
+  - ''
+  - Insert
+  - INTERNATIONAL 1
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - End
+  - Home
+  - ''
+  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
