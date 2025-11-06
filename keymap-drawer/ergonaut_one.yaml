@@ -97,7 +97,7 @@ layers:
   - PAGE DOWN
   - PAGE UP
   - ''
-  - SLCK
+  - ''
   - {t: ▽, type: trans}
   - ''
   - ''
