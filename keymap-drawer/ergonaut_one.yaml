@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ']', h: Gui}
+  - Gui
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - '['
-  - {t: '`', h: Ctrl}
+  - DELETE
+  - '-'
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
+  - Alt
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: ESCAPE, h: SYM}
   - {t: ENTER, h: SYM}
   - {t: ⌫, h: Shift}
-  - {t: ⌦, h: NUM}
+  - {t: NUM, h: toggle}
   SYM:
   - {t: F1, h: Gui}
   - '!'
