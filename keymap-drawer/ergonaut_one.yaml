@@ -44,7 +44,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: NUM, h: toggle}
   SYM:
-  - {t: ▽, type: trans}
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -55,7 +55,7 @@ layers:
   - '*'
   - '-'
   - +
-  - {t: ▽, type: trans}
+  - '|'
   - '~'
   - '1'
   - '2'
@@ -67,7 +67,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '|'
+  - '='
   - {t: ▽, type: trans}
   - /
   - <
@@ -167,8 +167,8 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
