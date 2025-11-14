@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - ''
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - ''
+  - DELETE
   - '-'
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT COMMAND}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: Ctrl}
+  - J
+  - K
+  - L
+  - ;
   - ''''
-  - ''
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -36,12 +36,12 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - RIGHT ALT
   - {t: ↹, h: NUM}
   - {t: ESCAPE, h: NUM}
   - {t: ␣, h: LEFT SHIFT}
   - {t: BACKSPACE, h: SYM}
-  - {t: ENTER, h: NUM}
+  - {t: ENTER, h: RIGHT COMMAND}
   - {t: NUM, h: toggle}
   SYM:
   - '`'
@@ -172,3 +172,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [14, 15, 16]
+  k: ↹
