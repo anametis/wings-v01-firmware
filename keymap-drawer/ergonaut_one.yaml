@@ -172,3 +172,10 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [14, 15, 16]
+  k: ↹
+- p: [20, 21, 19]
+  k: ENTER
+- p: [19, 20]
+  k: ESCAPE

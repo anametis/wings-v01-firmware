@@ -21,7 +21,24 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tab-h {
+            bindings = <&kp TAB>;
+            key-positions = <14 15 16>;
+        };
+
+        enter-combo {
+            bindings = <&kp ENTER>;
+            key-positions = <20 21 19>;
+        };
+
+        esc-combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
