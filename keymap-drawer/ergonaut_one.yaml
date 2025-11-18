@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - RIGHT ALT
-  - {t: ↹, h: NUM}
+  - {t: ↹, h: LEFT ALT}
   - {t: ESCAPE, h: NUM}
   - {t: ␣, h: LEFT SHIFT}
   - {t: BACKSPACE, h: SYM}
@@ -123,8 +123,8 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,8 +166,8 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
