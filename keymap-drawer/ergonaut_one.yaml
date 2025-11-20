@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
-  - ''
+  - Ctl+LEFT ARROW
+  - Ctl+RIGHT ARROW
   - ''
   - ''
   - End
