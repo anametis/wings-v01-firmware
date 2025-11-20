@@ -38,11 +38,11 @@ layers:
   - /
   - RIGHT ALT
   - {t: ↹, h: LEFT ALT}
-  - {t: ESCAPE, h: NUM}
+  - {t: ESCAPE, h: SYM}
   - {t: ␣, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: SYM}
-  - {t: ENTER, h: RIGHT COMMAND}
-  - {t: NUM, h: toggle}
+  - {t: BACKSPACE, h: LSHIFT}
+  - {t: ENTER, h: SYM}
+  - {t: APPLICATION, h: RIGHT GUI}
   SYM:
   - '`'
   - '!'
@@ -81,9 +81,9 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
@@ -124,7 +124,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,13 +169,11 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
   k: ↹
-- p: [20, 21, 19]
-  k: ENTER
-- p: [19, 20]
-  k: ESCAPE
+- p: [21, 20, 19]
+  k: {t: NUM, h: toggle}
