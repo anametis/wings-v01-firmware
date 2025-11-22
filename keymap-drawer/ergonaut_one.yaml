@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT ALT
   - {t: ↹, h: NUM}
-  - {t: ESCAPE, h: SYM}
   - {t: ␣, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: LSHIFT}
+  - {t: ESCAPE, h: SYM}
   - {t: ENTER, h: SYM}
+  - {t: BACKSPACE, h: RIGHT SHIFT}
   - {t: FIND2, h: RIGHT GUI}
   SYM:
   - '`'
@@ -81,8 +81,8 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,8 +167,8 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
