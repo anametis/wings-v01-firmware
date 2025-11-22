@@ -42,7 +42,7 @@ layers:
   - {t: ESCAPE, h: SYM}
   - {t: ENTER, h: SYM}
   - {t: BACKSPACE, h: RIGHT SHIFT}
-  - {t: FIND2, h: RIGHT GUI}
+  - {t: ⌦, h: RIGHT GUI}
   SYM:
   - '`'
   - '!'
