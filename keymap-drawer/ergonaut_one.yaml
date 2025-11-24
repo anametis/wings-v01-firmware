@@ -89,31 +89,31 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - AC CLOSE
   - Alt+Gui+LEFT ARROW
   - Alt+Gui+→
   - ''
-  - ''
+  - COPY
   - PAGE DOWN
   - PAGE UP
-  - ''
-  - ''
+  - AC OPEN
+  - PASTE
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
+  - SELECT
+  - AC SEARCH
   - ←
   - →
-  - ''
+  - AC GOTO
   - ''
   - ↓
   - ↑
   - ''
   - Insert
-  - INTERNATIONAL 1
+  - GLOBE
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - Gui+X
   - Ctl+LEFT ARROW
   - Ctl+RIGHT ARROW
   - ''
@@ -121,7 +121,7 @@ layers:
   - End
   - Home
   - ''
-  - ''
+  - FIND
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
