@@ -39,10 +39,10 @@ layers:
   - RIGHT ALT
   - {t: ↹, h: NUM}
   - {t: ␣, h: LEFT SHIFT}
-  - {t: ESCAPE, h: SYM}
-  - {t: ENTER, h: SYM}
-  - {t: BACKSPACE, h: RIGHT SHIFT}
-  - {t: ⌦, h: RIGHT GUI}
+  - {t: ESCAPE, h: NUM}
+  - {t: ENTER, h: RIGHT GUI}
+  - {t: BACKSPACE, h: SYM}
+  - {t: ⌦, h: LEFT ALT}
   SYM:
   - '`'
   - '!'
@@ -82,9 +82,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
@@ -168,9 +168,9 @@ layers:
   - Reset
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [21, 20, 19]
