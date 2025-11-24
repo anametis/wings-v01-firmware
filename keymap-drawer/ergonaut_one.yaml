@@ -88,18 +88,18 @@ layers:
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
-  - ''
+  - QUIT
   - AC CLOSE
   - Alt+Gui+LEFT ARROW
   - Alt+Gui+→
-  - ''
+  - ⏭️
   - COPY
   - PAGE DOWN
   - PAGE UP
   - AC OPEN
   - PASTE
   - {t: ▽, type: trans}
-  - ''
+  - KEYBOARD INPUT ASSIST PREVIOUS GROUP
   - SELECT
   - AC SEARCH
   - ←
@@ -112,7 +112,7 @@ layers:
   - Insert
   - GLOBE
   - {t: ▽, type: trans}
-  - ''
+  - UNDO
   - Gui+X
   - Ctl+LEFT ARROW
   - Ctl+RIGHT ARROW
