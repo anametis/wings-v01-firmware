@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - RIGHT ALT
-  - ''
+  - {t: ↹, h: LEFT CONTROL}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ESCAPE, h: NUM}
   - {t: ENTER, h: RIGHT GUI}
   - {t: ␣, h: SYM}
-  - ''
+  - {t: ⌦, h: RIGHT ALT}
   SYM:
   - '`'
   - '!'
