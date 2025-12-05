@@ -37,7 +37,7 @@
             display-name = "MAIN";
             bindings = <
 &kp ESCAPE        &kp Q           &kp W               &kp E      &kp R                    &kp T            &kp Y        &kp U                    &kp I      &kp O            &kp P                    &kp DELETE
-&kp MINUS         &mt LEFT_ALT A  &mt LEFT_COMMAND S  &lt 1 D    &mt LEFT_SHIFT F         &kp G            &kp H        &mt RIGHT_SHIFT J        &lt 1 K    &mt RIGHT_GUI L  &mt RIGHT_ALT SEMICOLON  &kp SQT
+&kp MINUS         &mt LEFT_ALT A  &mt LEFT_COMMAND S  &lt 1 D    &mt LEFT_SHIFT F         &lt 2 G          &lt 2 H      &mt RIGHT_SHIFT J        &lt 1 K    &mt RIGHT_GUI L  &mt RIGHT_ALT SEMICOLON  &kp SQT
 &kp LEFT_CONTROL  &kp Z           &kp X               &kp C      &kp V                    &kp B            &kp N        &kp M                    &kp COMMA  &kp DOT          &kp FSLH                 &kp RIGHT_ALT
                                                       &lt 2 TAB  &mt LEFT_CONTROL ESCAPE  &lt 1 BACKSPACE  &lt 1 SPACE  &mt RIGHT_CONTROL ENTER  &lt 2 DEL
             >;
@@ -56,10 +56,10 @@
         nav_layer {
             display-name = "NUM";
             bindings = <
-&trans                                      &kp C_QUIT    &kp C_AC_CLOSE   &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))    &kp C_NEXT     &kp K_COPY  &kp PAGE_DOWN  &kp PAGE_UP  &kp C_AC_OPEN  &kp K_PASTE  &trans
-&kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS_GROUP  &kp K_SELECT  &kp C_AC_SEARCH  &kp LEFT                &kp RIGHT            &kp C_AC_GOTO  &none       &kp DOWN       &kp UP       &none          &kp INS      &kp GLOBE
-&trans                                      &kp K_UNDO    &kp RG(X)        &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &none          &none       &kp END        &kp HOME     &none          &kp K_FIND   &trans
-                                                                           &trans                  &trans               &trans         &trans      &trans         &trans
+&trans  &kp C_QUIT    &none            &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))    &none          &kp K_COPY  &kp PAGE_DOWN  &kp PAGE_UP  &none  &kp K_PASTE  &trans
+&none   &kp K_SELECT  &kp C_AC_SEARCH  &kp LEFT                &kp RIGHT            &kp C_AC_GOTO  &none       &kp DOWN       &kp UP       &none  &kp INS      &kp GLOBE
+&trans  &kp K_UNDO    &kp RG(X)        &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &none          &none       &kp END        &kp HOME     &none  &none        &trans
+                                       &trans                  &trans               &trans         &trans      &trans         &trans
             >;
         };
 

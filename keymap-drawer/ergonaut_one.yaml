@@ -18,8 +18,8 @@ layers:
   - {t: S, h: LEFT COMMAND}
   - {t: D, h: SYM}
   - {t: F, h: LEFT SHIFT}
-  - G
-  - H
+  - {t: G, h: NUM}
+  - {t: H, h: NUM}
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: SYM}
   - {t: L, h: RIGHT GUI}
@@ -89,22 +89,22 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - QUIT
-  - AC CLOSE
+  - ''
   - Alt+Gui+LEFT ARROW
   - Alt+Gui+→
-  - ⏭️
+  - ''
   - COPY
   - PAGE DOWN
   - PAGE UP
-  - AC OPEN
+  - ''
   - PASTE
   - {t: ▽, type: trans}
-  - KEYBOARD INPUT ASSIST PREVIOUS GROUP
+  - ''
   - SELECT
   - AC SEARCH
   - ←
   - →
-  - AC GOTO
+  - {t: AC GOTO, type: held}
   - ''
   - ↓
   - ↑
@@ -121,9 +121,9 @@ layers:
   - End
   - Home
   - ''
-  - FIND
+  - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,7 +147,7 @@ layers:
   - BT 2
   - {t: BT 3, type: held}
   - BT 4
-  - BT 5
+  - {t: BT 5, type: held}
   - BT 5
   - BT 4
   - BT 3
@@ -166,7 +166,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
