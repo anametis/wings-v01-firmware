@@ -88,32 +88,32 @@ layers:
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
-  - QUIT
+  - ''
   - ''
   - Alt+Gui+LEFT ARROW
   - Alt+Gui+→
   - ''
-  - COPY
+  - ''
   - PAGE DOWN
   - PAGE UP
   - ''
-  - PASTE
+  - ''
   - {t: ▽, type: trans}
   - ''
-  - SELECT
-  - AC SEARCH
+  - ''
+  - ''
   - ←
   - →
-  - {t: AC GOTO, type: held}
+  - {type: held}
   - ''
   - ↓
   - ↑
   - ''
-  - Insert
+  - ''
   - GLOBE
   - {t: ▽, type: trans}
-  - UNDO
-  - Gui+X
+  - ''
+  - ''
   - Ctl+LEFT ARROW
   - Ctl+RIGHT ARROW
   - ''
