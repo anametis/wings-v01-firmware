@@ -14,16 +14,16 @@ layers:
   - P
   - DELETE
   - '-'
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT ALT}
+  - {t: S, h: LEFT COMMAND}
+  - {t: D, h: SYM}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: SYM}
+  - {t: L, h: RIGHT GUI}
+  - {t: ;, h: RIGHT ALT}
   - ''''
   - LEFT CONTROL
   - Z
@@ -59,7 +59,7 @@ layers:
   - '~'
   - '1'
   - '2'
-  - '3'
+  - {t: '3', type: held}
   - '4'
   - '5'
   - '6'
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,7 +145,7 @@ layers:
   - BT CLR
   - BT 1
   - BT 2
-  - BT 3
+  - {t: BT 3, type: held}
   - BT 4
   - BT 5
   - BT 5
@@ -168,7 +168,7 @@ layers:
   - Reset
   - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
