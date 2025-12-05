@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT ALT
   - {t: ↹, h: NUM}
-  - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: ESCAPE, h: SYM}
-  - {t: ENTER, h: SYM}
-  - {t: ␣, h: RIGHT SHIFT}
+  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: BACKSPACE, h: SYM}
+  - {t: ␣, h: SYM}
+  - {t: ENTER, h: RIGHT CONTROL}
   - {t: ⌦, h: NUM}
   SYM:
   - '`'
