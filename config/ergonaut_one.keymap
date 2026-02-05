@@ -28,6 +28,11 @@
             bindings = <&tog 2>;
             key-positions = <21 20 19>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15 16>;
+        };
     };
 
     keymap {

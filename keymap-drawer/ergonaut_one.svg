@@ -68,25 +68,25 @@ text.footer {
 }
 
 /* styling for combo tap, and key non-tap label text */
-text.combo, text.hold, text.shifted, text.left, text.right {
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
     font-size: 11px;
 }
 
-text.hold {
+text.hold, text.bl, text.br {
     text-anchor: middle;
     dominant-baseline: auto;
 }
 
-text.shifted {
+text.shifted, text.tl, text.tr {
     text-anchor: middle;
     dominant-baseline: hanging;
 }
 
-text.left {
+text.left, text.tl, text.bl {
     text-anchor: start;
 }
 
-text.right {
+text.right, text.tr, text.br {
     text-anchor: end;
 }
 
@@ -342,6 +342,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="644" y="89" class="combo tap layer-activator">NUM</text>
 </a><text x="644" y="100" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M196,89 l-37,2" class="combo"/>
+<path d="M196,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
+<text x="196" y="89" class="combo tap">↹</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-SYM">
@@ -523,6 +529,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="644" y="89" class="combo tap layer-activator">NUM</text>
 </a><text x="644" y="100" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M196,89 l-37,2" class="combo"/>
+<path d="M196,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
+<text x="196" y="89" class="combo tap">↹</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-NUM">
@@ -696,6 +708,12 @@ path.combo { stroke: #7f7f7f; }
 <a href="#NUM">
 <text x="644" y="89" class="combo tap layer-activator">NUM</text>
 </a><text x="644" y="100" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M196,89 l-37,2" class="combo"/>
+<path d="M196,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
+<text x="196" y="89" class="combo tap">↹</text>
 </g>
 </g>
 </g>
@@ -883,6 +901,12 @@ path.combo { stroke: #7f7f7f; }
 <a href="#NUM">
 <text x="644" y="89" class="combo tap layer-activator">NUM</text>
 </a><text x="644" y="100" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M196,89 l-37,2" class="combo"/>
+<path d="M196,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
+<text x="196" y="89" class="combo tap">↹</text>
 </g>
 </g>
 </g>
