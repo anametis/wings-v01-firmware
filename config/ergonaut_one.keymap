@@ -61,9 +61,9 @@
         nav_layer {
             display-name = "NUM";
             bindings = <
-&trans  &none  &none  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))    &none   &none   &kp PAGE_DOWN  &kp PAGE_UP  &none  &none    &trans
-&none   &none  &none  &kp LEFT                &kp RIGHT            &none   &none   &kp DOWN       &kp UP       &none  &kp INS  &kp GLOBE
-&trans  &none  &none  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &none   &none   &kp END        &kp HOME     &none  &none    &trans
+&trans  &none  &none  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))    &none   &none   &kp PAGE_DOWN  &kp PAGE_UP  &none  &none  &trans
+&none   &none  &none  &kp LEFT                &kp RIGHT            &none   &none   &kp DOWN       &kp UP       &none  &none  &kp GLOBE
+&trans  &none  &none  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &none   &none   &kp END        &kp HOME     &none  &none  &trans
                       &trans                  &trans               &trans  &trans  &trans         &trans
             >;
         };
