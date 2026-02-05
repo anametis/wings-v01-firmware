@@ -88,19 +88,19 @@ layers:
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
-  - QUIT
+  - ''
   - ''
   - Alt+Gui+LEFT ARROW
   - Alt+Gui+→
-  - ⏭️
-  - COPY
+  - ''
+  - ''
   - PAGE DOWN
   - PAGE UP
   - ''
-  - PASTE
+  - ''
   - {t: ▽, type: trans}
   - ''
-  - SELECT
+  - ''
   - ''
   - ←
   - →
@@ -113,7 +113,7 @@ layers:
   - GLOBE
   - {t: ▽, type: trans}
   - ''
-  - Gui+X
+  - ''
   - Ctl+LEFT ARROW
   - Ctl+RIGHT ARROW
   - ''
@@ -121,7 +121,7 @@ layers:
   - End
   - Home
   - ''
-  - FIND
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
