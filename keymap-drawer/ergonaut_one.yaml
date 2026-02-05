@@ -113,7 +113,7 @@ layers:
   - GLOBE
   - {t: ▽, type: trans}
   - ''
-  - Ctl+X
+  - ''
   - Ctl+LEFT ARROW
   - Ctl+RIGHT ARROW
   - ''
