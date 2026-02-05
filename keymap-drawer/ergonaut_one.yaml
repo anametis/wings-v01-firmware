@@ -99,7 +99,7 @@ layers:
   - AC OPEN
   - PASTE
   - {t: ▽, type: trans}
-  - KEYBOARD INPUT ASSIST PREVIOUS GROUP
+  - ''
   - SELECT
   - AC SEARCH
   - ←
