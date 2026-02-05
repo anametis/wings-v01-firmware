@@ -89,7 +89,7 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - QUIT
-  - AC CLOSE
+  - ''
   - Alt+Gui+LEFT ARROW
   - Alt+Gui+→
   - ⏭️
@@ -101,10 +101,10 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - SELECT
-  - AC SEARCH
+  - ''
   - ←
   - →
-  - AC GOTO
+  - ''
   - ''
   - ↓
   - ↑
@@ -112,7 +112,7 @@ layers:
   - Insert
   - GLOBE
   - {t: ▽, type: trans}
-  - UNDO
+  - ''
   - Gui+X
   - Ctl+LEFT ARROW
   - Ctl+RIGHT ARROW

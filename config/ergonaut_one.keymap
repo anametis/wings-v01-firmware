@@ -56,10 +56,10 @@
         nav_layer {
             display-name = "NUM";
             bindings = <
-&trans  &kp C_QUIT    &kp C_AC_CLOSE   &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))    &kp C_NEXT     &kp K_COPY  &kp PAGE_DOWN  &kp PAGE_UP  &kp C_AC_OPEN  &kp K_PASTE  &trans
-&none   &kp K_SELECT  &kp C_AC_SEARCH  &kp LEFT                &kp RIGHT            &kp C_AC_GOTO  &none       &kp DOWN       &kp UP       &none          &kp INS      &kp GLOBE
-&trans  &kp K_UNDO    &kp RG(X)        &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &none          &none       &kp END        &kp HOME     &none          &kp K_FIND   &trans
-                                       &trans                  &trans               &trans         &trans      &trans         &trans
+&trans  &kp C_QUIT    &none      &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))    &kp C_NEXT  &kp K_COPY  &kp PAGE_DOWN  &kp PAGE_UP  &kp C_AC_OPEN  &kp K_PASTE  &trans
+&none   &kp K_SELECT  &none      &kp LEFT                &kp RIGHT            &none       &none       &kp DOWN       &kp UP       &none          &kp INS      &kp GLOBE
+&trans  &none         &kp RG(X)  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &none       &none       &kp END        &kp HOME     &none          &kp K_FIND   &trans
+                                 &trans                  &trans               &trans      &trans      &trans         &trans
             >;
         };
 
