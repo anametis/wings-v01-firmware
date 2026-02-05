@@ -109,7 +109,7 @@ layers:
   - ↓
   - ↑
   - ''
-  - Insert
+  - ''
   - GLOBE
   - {t: ▽, type: trans}
   - ''
