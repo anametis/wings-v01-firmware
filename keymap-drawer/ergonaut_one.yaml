@@ -96,7 +96,7 @@ layers:
   - COPY
   - PAGE DOWN
   - PAGE UP
-  - AC OPEN
+  - ''
   - PASTE
   - {t: ▽, type: trans}
   - ''
