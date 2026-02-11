@@ -1,6 +1,5 @@
 # Draw keymap diagrams using keymap-drawer ZMK user config workflow
 name: Draw ZMK keymaps
-
 on:
   workflow_dispatch:
   push:
@@ -9,10 +8,6 @@ on:
       - 'config/includes/*.dtsi'
       - keymap-drawer/config.yaml
       - .github/workflows/draw-keymaps.yml
-
-# ✅ Give the workflow permission to push commits
-permissions:
-  contents: write
 
 jobs:
   draw:
